@@ -26,7 +26,7 @@ export default function Home() {
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
-              <a href="/projects" className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-cyan-400 to-blue-500 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:scale-[1.02]">View My Work</a>
+              <a href="#projects" className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-cyan-400 to-blue-500 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:scale-[1.02]">View My Work</a>
               <a href={resumePdf} target="_blank" rel="noreferrer" download="Prasad_Akiwate_Resume.pdf" className="inline-flex items-center justify-center gap-2 rounded-full glass px-6 py-3 text-sm font-semibold text-white transition hover:border-cyan-400/50 hover:bg-cyan-400/10">Download Resume <Download size={18} /></a>
             </div>
 
