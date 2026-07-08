@@ -30,7 +30,7 @@ export default function Projects() {
   const [selectedProject, setSelectedProject] = useState(null)
 
   return (
-    <div className="min-h-screen mt-10 py-20">
+    <div id="projects" className="min-h-screen mt-10 py-20">
       <div className="mx-auto max-w-7xl px-6 sm:px-10 lg:px-12">
         <SectionHeading eyebrow="Featured Projects" title="Premium product work with measurable impact." description="Each project marries thoughtful UX, robust architecture, and high-quality implementation." />
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
